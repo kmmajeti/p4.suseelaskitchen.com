@@ -1,0 +1,215 @@
+/*-------------------------------------------------------------------------------------------------
+Body
+-------------------------------------------------------------------------------------------------*/
+body	{
+			background: #FFFFCC;
+			font-family: Calibri,Arial,sans-serif;
+			margin-left: 3em;
+			margin-right: 3em;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			font-size: 16px;
+}
+
+#header {
+			font-family: Impact, Charcoal, sans-serif;
+			font-size: 2em;
+}
+ 
+#footer {
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			text-align:center;
+			color: #BABABA;
+			width:100%;
+			bottom:0%;
+			font-size: 12px;
+			position: relative;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Links
+-------------------------------------------------------------------------------------------------*/
+a:link {
+			color: blue;
+			text-decoration: none;
+}
+ 
+a:visited {
+			color: #dcdcdc;
+			text-decoration: none;
+}
+ 
+a:hover, a:active, a:focus {
+			color: blue;
+			text-decoration: none;
+}
+
+a:visited{
+			text-decoration: none;
+			color: blue;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Headers
+-------------------------------------------------------------------------------------------------*/
+
+h1 {
+			color: #FF6633;
+			text-align: center;
+}
+
+h2 {
+			color: #660000;
+			text-align: center;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Menu
+-------------------------------------------------------------------------------------------------*/
+#menu {
+			color:#000000;
+			background-color:#FFCCCC;
+			text-align: right;
+			font-weight:bold;
+			display:block;
+			padding-right: 2em;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Home page
+-------------------------------------------------------------------------------------------------*/
+
+.welcome p{
+			font-size: 20px;
+			color: black;
+			text-align: justify;
+			margin-left: 10em;
+			margin-right: 10em;  
+}
+
+.signUpNow {
+			color: black;
+			text-align: center;
+			font-size: 18px;
+}
+
+.signUpNow a{
+			font-weight:bold;
+}
+
+.other_features {
+			margin-left: 10em;
+			font-size: 18px;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Buttons
+-------------------------------------------------------------------------------------------------*/
+
+.submitButton input, button{
+			width: 10em;
+			height: 2em;
+			margin-top: 1em;
+			margin-bottom: 1em;
+			color: #FFFFFF;
+			background: #0066FF;
+			text-align: center;
+			font-weight:bold;
+}
+
+.signInButton {
+			text-align: center;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Elements on the form
+-------------------------------------------------------------------------------------------------*/
+
+.formElements {
+			margin-left: 40%;
+}
+
+.formElements label {
+			font-weight:bold;
+			padding-right: 10px;
+}
+
+.usersProfile p{
+			display: inline;
+}
+
+.displayLabel {
+			font-weight:bold;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Error/Success messages
+-------------------------------------------------------------------------------------------------*/
+
+.invalid {
+			color: red;
+			text-align: center;
+}
+
+.success {
+			color: green;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Table
+-------------------------------------------------------------------------------------------------*/
+table {
+			border-collapse:collapse;
+			margin-left: 20%;
+			margin-right: 20%;
+}
+table, td, th {
+			border:1px solid black;
+}
+
+td {
+			text-align: left;
+			width: 10%;
+			padding-left: 5px;
+}
+th {
+			background-color: #bbbbff;
+			text-align: center;
+} 
+
+/*-------------------------------------------------------------------------------------------------
+Posts
+-------------------------------------------------------------------------------------------------*/
+
+.post {
+			background-color:#E5EECC;
+			border: 1px solid #98bf21;
+			margin: 20px;
+			padding-left: 10px;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Follow and Unfollow actions
+-------------------------------------------------------------------------------------------------*/
+.follow {
+			color: #FFFFFF;
+			background: #CCFF33;
+			text-align: center;
+			font-weight:bold;
+}
+
+.unfollow {
+			color:#FFFFFF;
+			background: #00FF66;
+			text-align: center;
+			font-weight:bold;
+}
+
+/*-------------------------------------------------------------------------------------------------
+Profile avatar
+-------------------------------------------------------------------------------------------------*/
+.avatar {
+			float: left;
+			padding-left: 10px;
+			padding-right: 20px;
+}
