@@ -7,16 +7,16 @@
 			<div class="formElements">
 				<label for="first_name">First Name:</label>
 				<input id="first_name" type='text' name='first_name'>
-				<br></br>
+				<br><br>
 				<label for="last_name">Last Name:</label>
 				<input id="last_name" type='text' name='last_name'>
-				<br></br>
+				<br><br>
 				<label for="email">Email:</label>
 				<input id="email" type='email' name='email'>
-				<br></br>
+				<br><br>
 				<label for="password">Password:</label>
 				<input id="password" type='password' name='password'>
-				<br></br>
+				<br><br>
 				<div class="submitButton">
 					<input type='submit' value='Sign Up'>
 				</div>
